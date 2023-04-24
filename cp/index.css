@@ -1,0 +1,25 @@
+#input_grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input_grid_row {
+    display: flex;
+    justify-content: center;
+}
+
+.input_grid_el {
+    width: 20px;
+    height: 20px;
+    border: white solid 1px;
+}
+
+.true {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.false {
+    background-color: rgba(0, 0, 0, .1);
+}
